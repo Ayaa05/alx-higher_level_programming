@@ -1,0 +1,8 @@
+Fusionner les modifications de la branche principale amont dans la branche de sujet `feature-x`.
+
+Cette fusion apporte les modifications suivantes à la branche de sujet `feature-x` :
+
+* Ajout d'une nouvelle fonctionnalité permettant aux utilisateurs de créer des listes de tâches.
+* Correction d'un bug qui empêchait les utilisateurs de se connecter au serveur.
+* Amélioration des performances de l'application.
+
