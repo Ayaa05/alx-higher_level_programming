@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-<<<<<<< HEAD
 """Defines a base model class."""
 import json
 import csv
@@ -23,24 +22,10 @@ class Base:
         Args:
             id (int): The identity of the new Base.
         """
-=======
-""" Base class """
-import json
-import turtle
-
-
-class Base():
-    """ Base class """
-    __nb_objects = 0
-
-    def __init__(self, id=None):
-        """ Initialize class """
->>>>>>> e6bb689a8b7f2b0da54d57c434b8e8d56091f13f
         if id is not None:
             self.id = id
         else:
             Base.__nb_objects += 1
-<<<<<<< HEAD
             self.id = Base.__nb_objects
 
     @staticmethod
@@ -200,6 +185,3 @@ class Base():
             turt.hideturtle()
 
         turtle.exitonclick()
-=======
-            self.id = self.__nb_objects
->>>>>>> e6bb689a8b7f2b0da54d57c434b8e8d56091f13f
